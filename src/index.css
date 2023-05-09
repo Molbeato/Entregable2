@@ -17,10 +17,11 @@ body {
 .tittle{
   color: white;
   position: absolute;
+  top: 9%;
   margin: 20px;
   padding: 30px;
   font-family: "Source Sans Pro";
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .weather_container{
@@ -95,12 +96,21 @@ div img{
     width: 40vw;
     height: 700px;
     }
+  
+    .tittle{
+      font-size: 30px;
+      top: 7%;
+    }
 }
 
 @media screen and (max-width: 992px){
   .info_container{ 
-  width: 60vw;
-  height: 700px;
+  width: 50vw;
+  height: 600px;
+  }
+
+  h1{
+    font-size: 40px;
   }
 
   .tittle{
@@ -108,8 +118,10 @@ div img{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    font-size: 30px;
+    font-size: 25px;
+    top: 10%;
   }
+
 }
 
 @media screen and (max-width: 768px){
